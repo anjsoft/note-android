@@ -1,0 +1,27 @@
+LinearLayout:类似AWT中的flowlayout ，但不换行.
+	setGraviry(int) 设置布局管理器内组件的对齐方式 
+	android.widget.TableLayout extends android.widget.LinearLayout
+FrameLayout CardLayout
+AbsoluteLayout :AWT空布局
+
+datepicker, timepicker,srollview 派生与framelayout
+创建ListView方法：直接用ListView,让Activity继承ListActivity
+
+gridView ,listView 派生与absListView
+gallery,spinner 派生与AbsSpinner
+
+AlertDialog
+
+popupWindow用法：(p136)
+1 new 
+2 showAsDropDown(View v) / showAtLocation
+DatePickerDialog TimePickerDialog
+toast:p142
+notification
+menu {subMenu,ContextMenu}:146
+3.1事件处理：回调简单通用，监听处理特定事件（与AWT，SWING）=代理模式
+Configuration cfg=getResources().getConfiguration();
+
+Handler
+
+文件编码检测，和转换
